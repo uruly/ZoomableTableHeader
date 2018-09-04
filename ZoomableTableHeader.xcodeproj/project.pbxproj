@@ -14,6 +14,9 @@
 		6609CC6C213EED1E007EC95D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6609CC6A213EED1E007EC95D /* LaunchScreen.storyboard */; };
 		6609CC77213EED1E007EC95D /* ZoomableTableHeaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6609CC76213EED1E007EC95D /* ZoomableTableHeaderTests.swift */; };
 		6609CC82213EED1E007EC95D /* ZoomableTableHeaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6609CC81213EED1E007EC95D /* ZoomableTableHeaderUITests.swift */; };
+		6609CC90213EED93007EC95D /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6609CC8F213EED93007EC95D /* TableView.swift */; };
+		6609CC92213EF084007EC95D /* ZoomableTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6609CC91213EF084007EC95D /* ZoomableTableHeaderView.swift */; };
+		6609CC98213EF5FF007EC95D /* zoomable.png in Resources */ = {isa = PBXBuildFile; fileRef = 6609CC97213EF5FF007EC95D /* zoomable.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		6609CC7D213EED1E007EC95D /* ZoomableTableHeaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoomableTableHeaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6609CC81213EED1E007EC95D /* ZoomableTableHeaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomableTableHeaderUITests.swift; sourceTree = "<group>"; };
 		6609CC83213EED1E007EC95D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6609CC8F213EED93007EC95D /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		6609CC91213EF084007EC95D /* ZoomableTableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomableTableHeaderView.swift; sourceTree = "<group>"; };
+		6609CC97213EF5FF007EC95D /* zoomable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zoomable.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 			children = (
 				6609CC61213EED1B007EC95D /* AppDelegate.swift */,
 				6609CC63213EED1B007EC95D /* ViewController.swift */,
+				6609CC8F213EED93007EC95D /* TableView.swift */,
+				6609CC91213EF084007EC95D /* ZoomableTableHeaderView.swift */,
+				6609CC97213EF5FF007EC95D /* zoomable.png */,
 				6609CC65213EED1B007EC95D /* Main.storyboard */,
 				6609CC68213EED1E007EC95D /* Assets.xcassets */,
 				6609CC6A213EED1E007EC95D /* LaunchScreen.storyboard */,
@@ -229,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6609CC98213EF5FF007EC95D /* zoomable.png in Resources */,
 				6609CC6C213EED1E007EC95D /* LaunchScreen.storyboard in Resources */,
 				6609CC69213EED1E007EC95D /* Assets.xcassets in Resources */,
 				6609CC67213EED1B007EC95D /* Main.storyboard in Resources */,
@@ -257,6 +267,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6609CC64213EED1B007EC95D /* ViewController.swift in Sources */,
+				6609CC92213EF084007EC95D /* ZoomableTableHeaderView.swift in Sources */,
+				6609CC90213EED93007EC95D /* TableView.swift in Sources */,
 				6609CC62213EED1B007EC95D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

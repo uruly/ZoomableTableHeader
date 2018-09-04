@@ -12,7 +12,15 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let statusBarHeight = UIApplication.shared.statusBarFrame.maxY
+        let tableView = TableView(frame: CGRect(x:0,y:-statusBarHeight,
+                                                width:self.view.frame.width,
+                                                height: self.view.frame.height + statusBarHeight))
+        self.view.addSubview(tableView)
+        
+        automaticallyAdjustsScrollViewInsets = false
+        
     }
 
     override func didReceiveMemoryWarning() {
