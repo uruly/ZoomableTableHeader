@@ -19,7 +19,7 @@ class ZoomableTableHeaderView: UITableViewHeaderFooterView {
     
     override init(reuseIdentifier: String?) {
         super.init(reuseIdentifier: reuseIdentifier)
-        self.backgroundView = UIView()
+        self.backgroundView = PassThroughView()
         self.backgroundView?.backgroundColor = UIColor.clear
         
         // imageViewを設置

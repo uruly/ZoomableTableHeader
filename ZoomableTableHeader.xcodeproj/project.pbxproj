@@ -17,6 +17,7 @@
 		6609CC90213EED93007EC95D /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6609CC8F213EED93007EC95D /* TableView.swift */; };
 		6609CC92213EF084007EC95D /* ZoomableTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6609CC91213EF084007EC95D /* ZoomableTableHeaderView.swift */; };
 		6609CC98213EF5FF007EC95D /* zoomable.png in Resources */ = {isa = PBXBuildFile; fileRef = 6609CC97213EF5FF007EC95D /* zoomable.png */; };
+		66254986213F7B4F00F567AB /* PassThroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66254985213F7B4F00F567AB /* PassThroughView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		6609CC8F213EED93007EC95D /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
 		6609CC91213EF084007EC95D /* ZoomableTableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomableTableHeaderView.swift; sourceTree = "<group>"; };
 		6609CC97213EF5FF007EC95D /* zoomable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zoomable.png; sourceTree = "<group>"; };
+		66254985213F7B4F00F567AB /* PassThroughView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassThroughView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				6609CC63213EED1B007EC95D /* ViewController.swift */,
 				6609CC8F213EED93007EC95D /* TableView.swift */,
 				6609CC91213EF084007EC95D /* ZoomableTableHeaderView.swift */,
+				66254985213F7B4F00F567AB /* PassThroughView.swift */,
 				6609CC97213EF5FF007EC95D /* zoomable.png */,
 				6609CC65213EED1B007EC95D /* Main.storyboard */,
 				6609CC68213EED1E007EC95D /* Assets.xcassets */,
@@ -269,6 +272,7 @@
 				6609CC64213EED1B007EC95D /* ViewController.swift in Sources */,
 				6609CC92213EF084007EC95D /* ZoomableTableHeaderView.swift in Sources */,
 				6609CC90213EED93007EC95D /* TableView.swift in Sources */,
+				66254986213F7B4F00F567AB /* PassThroughView.swift in Sources */,
 				6609CC62213EED1B007EC95D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
